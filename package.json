@@ -1,0 +1,21 @@
+{
+  "name": "ng8-breadcrumbs",
+  "version": "0.0.2",
+  "description": "Angular component and service for breadcrubms",
+  "author": "Pavlo Shenhofer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shengofer/ngx-breadcrumbs.git"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/shengofer/ngx-breadcrumbs/issues"
+  },
+  "homepage": "https://github.com/shengofer/ngx-breadcrumbs",
+  "keywords": ["angular", "breadcrumbs", "typescript", "javascript", "component", "service"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  }
+}

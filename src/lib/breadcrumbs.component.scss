@@ -1,0 +1,35 @@
+
+.container-fluid {
+  padding-left: 0;
+  .container {
+    padding-left: 0;
+
+  }
+
+}
+
+.breadcrumb {
+  padding: 0 0;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  .breadcrumb-item a {
+    color: #2e2f31;
+    text-decoration: underline;
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #2e2f31;
+  content: ">";
+}
+
+.breadcrumb-item.active {
+  display: none;
+}
+
+.container {
+  margin-left: 0;
+}
+
