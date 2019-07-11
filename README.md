@@ -1,4 +1,6 @@
-# ng2-breadcrumb
+[![npm version](https://img.shields.io/npm/v/ng8-breadcrumbs/cookie.svg)](https://www.npmjs.com/org/ng8-breadcrumbs) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/shengofer/ngx-breadcrumbs/blob/master/LICENSE)
+# ng8-breadcrumb
 This component generates a breadcrumb trail, as you navigate to child routes using the @angular/router. It interprets the browser URL of a navigate request, 
 in the same way the component router does to match a path to a specific component, to build up a hierarchy of available parent/child routes for that destination.
 
@@ -55,11 +57,11 @@ Place the breadcrumb selector in your component's html where you added your rout
 ## Directives
 `useBootstrap: boolean` to apply the bootstrap breadcrumb style. Defaulted to true.
 
-	<breadcrumb [useBootstrap]="false"></breadcrumb>
+	<ngx-breadcrumbs [useBootstrap]="false"></ngx-breadcrumbs>
 	
 `prefix: string` to have a static prefix as the first breadcrumb which routes to the base root when clicked.
 
-	<breadcrumb prefix="App Title"></breadcrumb>
+	<ngx-breadcrumbs prefix="App Title"></ngx-breadcrumbs>
     
 ## BreadcrumbService
 Add friendly names for each of your app's routes (paths). Can also specify regular expressions to match routes and assign a friendly name.
